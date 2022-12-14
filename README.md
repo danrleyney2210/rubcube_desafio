@@ -43,13 +43,19 @@ O layout da aplicação foi desenvolvido por mim mesmo
 
 ### Home - PokeRub
 
+A tela principal home lista todos os pokemons, contém uma barra de pesquisa para buscar por nome o pokemon desejado.
+
 <img width="390" height="844" src="./public/img/app1.png"/>
 
 ### O usuário pode pesquisar por nome o pokemon desejado
 
+Ao digitar na barra de pesquisa um pokemon é feito um filtro entres os pokemons.
+
 <img width="390" height="844" src="./public/img/app2.png"/>
 
 ### About - PokeRub / Usuário pode ver detalhes do Pokemon clicado
+
+Nesta tela contém detalhes do pokemon clicado.
 
 <img width="390" height="844" src="./public/img/about.png"/>
 

@@ -43,15 +43,15 @@ O layout da aplicação foi desenvolvido por mim mesmo
 
 ### Home - PokeRub
 
-<img src="./public/img/app1.png"/>
+<img width="390" height="844" src="./public/img/app1.png"/>
 
 ### O usuário pode pesquisar por nome o pokemon desejado
 
-<img src="./public/img/app2.png"/>
+<img width="390" height="844" src="./public/img/app2.png"/>
 
 ### About - PokeRub / Usuário pode ver detalhes do Pokemon clicado
 
-<img src="./public/img/about.png"/>
+<img width="390" height="844" src="./public/img/about.png"/>
 
 Como executar o projeto 🚀
 

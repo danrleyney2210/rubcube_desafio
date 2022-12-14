@@ -33,15 +33,25 @@ Listagem de ingressos:
 
 ---
 
----
-
 # 🎨 Layout
 
 O layout da aplicação foi desenvolvido por mim mesmo
 
-<!-- <img src="./public/img/img1.png"/>
-<img src="./public/img/img2.png"/>
-<img src="./public/img/img3.png"/> -->
+### Visão App PokeRub
+
+<img src="./public/img/app00.png"/>
+
+### Home - PokeRub
+
+<img src="./public/img/app1.png"/>
+
+### O usuário pode pesquisar por nome o pokemon desejado
+
+<img src="./public/img/app2.png"/>
+
+### About - PokeRub / Usuário pode ver detalhes do Pokemon clicado
+
+<img src="./public/img/about.png"/>
 
 Como executar o projeto 🚀
 

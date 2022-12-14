@@ -7,11 +7,9 @@ import Button from '@components/Button';
 import { GroupCard } from '@components/GroupCard';
 import { Header } from '@components/Header';
 import HighLight from '@components/Hightlight';
-import ListEmpry from '@components/ListEmpty';
+import ListEmpty from '@components/ListEmpty';
 import pokeApi from '@services/index';
 import { useNavigation } from '@react-navigation/native';
-
-
 
 type pokemonType = {
   type: string
@@ -99,8 +97,8 @@ export function Home() {
             />
           )}
           ListEmptyComponent={() => (
-            <ListEmpry
-              message='xxxx'
+            <ListEmpty
+              message='Nenhum Pokemon'
             />
           )}
         />

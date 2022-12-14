@@ -6,7 +6,7 @@ type Props = {
   message: string
 }
 
-const ListEmpry = ({ message }: Props) => {
+const ListEmpty = ({ message }: Props) => {
   return (
     <S.Container>
       <S.Message>
@@ -16,4 +16,4 @@ const ListEmpry = ({ message }: Props) => {
   )
 }
 
-export default ListEmpry
+export default ListEmpty

@@ -6,6 +6,7 @@ import { Alert, Text } from 'react-native'
 import pokeApi from '@services/index'
 import Button from '@components/Button'
 import { addPokemon } from '@storage/Pokemons/pokemons'
+import { AppError } from '@utils/AppError'
 
 type RouteParams = {
   pokemonId: number
@@ -58,13 +59,17 @@ export const About = () => {
   const { pokemonId } = route.params as RouteParams;
 
   async function handleAdd() {
-    console.log(pokemon.name)
     try {
       await addPokemon(pokemon.name)
       goBack()
 
     } catch (error) {
-      console.log(error)
+      if (error instanceof AppError) {
+        Alert.alert(error.message)
+      } else {
+        Alert.alert('não foi possível adcionar este pokemon.')
+        console.log(error)
+      }
     }
   }
 

@@ -1,7 +1,7 @@
 import { GroupCard } from '@components/GroupCard'
 import { Header } from '@components/Header'
 import HighLight from '@components/Hightlight'
-import ListEmpry from '@components/ListEmpty'
+import ListEmpty from '@components/ListEmpty'
 import { useFocusEffect } from '@react-navigation/native'
 import { getAllPokemons } from '@storage/Pokemons/getAllPokemons'
 import React, { useCallback, useEffect, useState } from 'react'
@@ -9,7 +9,7 @@ import { FlatList } from 'react-native'
 import * as S from './styles'
 
 export const MyPoke = () => {
-  const [myPokemons, setMyPokemons] = useState()
+  const [myPokemons, setMyPokemons] = useState<string[]>()
 
   async function fetchPokemonStorage() {
     try {
@@ -21,9 +21,10 @@ export const MyPoke = () => {
   }
 
   useFocusEffect(useCallback(() => {
-    console.log('executou')
     fetchPokemonStorage();
   }, []));
+
+  console.log(myPokemons)
 
   return (
     <S.Container>
@@ -37,21 +38,20 @@ export const MyPoke = () => {
         myPokemons &&
         <FlatList
           data={myPokemons}
-          keyExtractor={item => item.name}
-          // contentContainerStyle={myPokemons.length === 0 && { flex: 1 }}
+          keyExtractor={item => item}
           renderItem={({ item }) => (
             <GroupCard
               title={item}
-              id={item.id}
-            // onPress={() => handleNavigate(item.id)}
+              isFavorite
             />
           )}
           ListEmptyComponent={() => (
-            <ListEmpry
-              message='xxxx'
+            <ListEmpty
+              message='Nenhum Pokemon adcionado.'
             />
           )}
         />
+
       }
     </S.Container>
   )

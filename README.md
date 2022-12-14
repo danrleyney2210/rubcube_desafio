@@ -59,6 +59,12 @@ Nesta tela contém detalhes do pokemon clicado.
 
 <img width="390" height="844" src="./public/img/about.png"/>
 
+### PokeRube - Meus Pokemons favoritos armazenados
+
+Nesta tela contém os pokemons armazenados no asyncStorage do dispositivo.
+
+<img width="390" height="844" src="./public/img/mypoke.png"/>
+
 Como executar o projeto 🚀
 
 #### Clone este repositório :
@@ -85,9 +91,7 @@ Como executar o projeto 🚀
 
 # 🛠 Dependências
 
-> Principais dependências usadas no projeto: 🔥
-
-- - Bibloteca para componentes
+> Principais biblioteca usadas no projeto: 🔥
 
 - phosphor-react-native - Biblioteca de icones.
 

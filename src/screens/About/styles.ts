@@ -1,4 +1,3 @@
-import { UsersThree } from "phosphor-react-native";
 import styled from "styled-components/native";
 
 export const Container = styled.View`
@@ -45,11 +44,4 @@ export const Title = styled.Text`
   font-size: ${({ theme }) => theme.FONT_SIZE.XL}px;
   font-family: ${({ theme }) => theme.FONT_FAMILY.BOLD};
   color: ${({ theme }) => theme.COLORS.WHITE};
-`;
-
-export const Icon = styled(UsersThree).attrs(({ theme }) => ({
-  size: 56,
-  color: theme.COLORS.GREEN_700,
-}))`
-  align-self: center;
 `;

@@ -78,8 +78,6 @@ export const About = () => {
       try {
         const response = await pokeApi.get(`/pokemon/${pokemonId}`)
         const { stats, abilities, id, name, types, weight, height } = response.data;
-        // console.log('Altura: ', height)
-        // const currentType = types[0].types.name
         setPokemon({
           stats, abilities, id, name, types, weight, height
         })
@@ -120,7 +118,7 @@ export const About = () => {
                 <S.Title>Peso: <S.Subtitle>{pokemon.weight}</S.Subtitle></S.Title>
 
 
-                {pokemon.abilities.map((currentbility, idx) => <S.Title>
+                {pokemon.abilities.map((currentbility, idx) => <S.Title key={idx}>
                   Habilidade {idx + 1}: <S.Subtitle>{currentbility.ability.name}</S.Subtitle>
                 </S.Title>)}
               </S.ContentText>

@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './styles'
 import { StatusBar } from 'expo-status-bar'
-import { Cube } from "phosphor-react-native";
+import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 
 
@@ -24,7 +24,7 @@ export const Header = ({ showButton = false }: props) => {
         </S.BackButton>
       }
 
-      <Cube size={32} color={'#fff'} />
+      <Ionicons name="md-cube-outline" size={32} color="#fff" />
 
       {/* <S.Logo source={logoImg} /> */}
     </S.Container>

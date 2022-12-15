@@ -80,7 +80,6 @@ export function Home() {
       (pokemon) =>
         pokemon.name.toUpperCase().includes(search.toUpperCase())
     )
-    console.log(result)
     setFilter(result)
   }
 
@@ -129,7 +128,7 @@ export function Home() {
         ) : (
           <FlatList
             data={pokemons}
-            keyExtractor={item => item.name}
+            keyExtractor={item => item.id.toString()}
             contentContainerStyle={pokemons.length === 0 && { flex: 1 }}
             renderItem={({ item }) => (
               <GroupCard

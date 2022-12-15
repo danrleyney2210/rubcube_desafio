@@ -10,7 +10,7 @@ export async function addPokemon(newPokemon: string) {
     const pokemonexist = pokeStorage.includes(newPokemon);
 
     if (pokemonexist) {
-      throw new AppError("Este Pokemon já está adcionado!");
+      throw new AppError("Este Pokemon já foi adicionado!");
     }
 
     const storage = JSON.stringify([...pokeStorage, newPokemon]);

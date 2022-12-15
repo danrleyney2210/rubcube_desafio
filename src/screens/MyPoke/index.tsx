@@ -9,7 +9,7 @@ import { FlatList } from 'react-native'
 import * as S from './styles'
 
 export const MyPoke = () => {
-  const [myPokemons, setMyPokemons] = useState<string[]>()
+  const [myPokemons, setMyPokemons] = useState<string[]>([])
 
   async function fetchPokemonStorage() {
     try {
@@ -24,8 +24,6 @@ export const MyPoke = () => {
     fetchPokemonStorage();
   }, []));
 
-  console.log(myPokemons)
-
   return (
     <S.Container>
       <Header showButton />
@@ -34,25 +32,22 @@ export const MyPoke = () => {
         subtitle='Meus Pokemons Favoritos'
       />
 
-      {
-        myPokemons &&
-        <FlatList
-          data={myPokemons}
-          keyExtractor={item => item}
-          renderItem={({ item }) => (
-            <GroupCard
-              title={item}
-              isFavorite
-            />
-          )}
-          ListEmptyComponent={() => (
-            <ListEmpty
-              message='Nenhum Pokemon adcionado.'
-            />
-          )}
-        />
+      <FlatList
+        data={myPokemons}
+        keyExtractor={item => item.toString()}
+        renderItem={({ item }) => (
+          <GroupCard
+            title={item}
+            isFavorite
+          />
+        )}
+        ListEmptyComponent={() => (
+          <ListEmpty
+            message='Nenhum Pokemon adcionado.'
+          />
+        )}
+      />
 
-      }
     </S.Container>
   )
 }

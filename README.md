@@ -93,7 +93,7 @@ Como executar o projeto 🚀
 
 > Principais biblioteca usadas no projeto: 🔥
 
-- phosphor-react-native - Biblioteca de icones.
+- @expo/vector-icons@13.0.0 - Biblioteca de icones.
 
 - Styled Components - CSS-in-js
 

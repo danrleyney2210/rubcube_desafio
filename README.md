@@ -4,6 +4,8 @@
 
 ### Desafio para desenvolvedor front-end para - Rubcube
 
+https://github.com/Rubcube/hiring-exercises/
+
 ### Descrição
 
 > Este exercício consiste em implementar a melhor solução possível para um dos exercícios abaixo no tempo previsto. Estamos avaliando sua capacidade de atender a um conjunto de requisitos e criar uma solução completa que demonstre habilidade, consideração e atenção à experiência do usuário. Este NÃO é um teste de quão bem você conhece Android ou iOS ou React, nem deve tentar nos impressionar com soluções muito complexas. Se você quer nos impressionar, construa algo bonito, intuitivo e fácil de depurar/testar/estender 🫡.

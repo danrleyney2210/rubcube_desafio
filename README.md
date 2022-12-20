@@ -117,8 +117,8 @@ Veja o arquivo <a>package.json</a>
 > Pergunta: O exercício que você escolheu e o porque, caso exista mais de uma opção de teste para a vaga :
 > Resposta : Escolhi este exercíco porque demostraria mais habilidade e domínio nas tecnologia exigidas.
 
-> Pergunta: como testar e rodar a aplicação;
-> Ao clonar o repositório, secute o comando yarn ou npm i, para instalar as dependências. e logo em seguida executar o comando expo start. Para mais informações verfique o arquivo package.json.
+> Pergunta: como testar e rodar a aplicação?
+> Resposta Ao clonar o repositório, secute o comando yarn ou npm i, para instalar as dependências. e logo em seguida executar o comando expo start. Para mais informações verfique o arquivo package.json.
 
 > Pergunta: qualquer observação que você sentiu durante o processo se algo foi difícil de fazer, confuso, frustrante.
 > Resposta: Nenhuma observação, teste foi trnaquilo e objetivo.

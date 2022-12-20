@@ -112,6 +112,11 @@ Veja o arquivo <a>package.json</a>
 
 ---
 
+### Informações exigidas pelo teste
+
+> Pergunta: O exercício que você escolheu e o porque, caso exista mais de uma opção de teste para a vaga :
+> Resposta : Escolhi este exercíco porque demostraria mais habilidade e domínio nas tecnologia exigidas.
+
 ### 🦸 Desenvolvedor 🤘
 
 <img width="120" src="./public/img/eu.png"/>

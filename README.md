@@ -126,7 +126,7 @@ Veja o arquivo <a>package.json</a>
 > Resposta: Nenhuma observação, teste foi trnaquilo e objetivo.
 
 > Pergunta: qualquer coisa que você quer nos dizer sobre o processo
-> Resposta: Na minha opnião em um teste não precisa exigir em um Readme respostas de perguntas não relacionada ao teste, isso seria melhor na entrevista após passar no teste para melhor entrevista.
+> Resposta: Na minha opnião em um teste não precisa exigir em um Readme respostas de perguntas não relacionada ao teste, isso seria melhor na entrevista após passar no teste para melhor entrevista. O outro ponto seria ter um layou ou figma para o candidado seguir, isso avaliaria sua habilidade no front-end.
 
 > Pergunta: o que você adicionaria se tivesse mais tempo?
 > Resposta: Adcionaria um contexto para gerenciamento de estado apenas para demonstração e domínio de habilidade.

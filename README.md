@@ -117,6 +117,18 @@ Veja o arquivo <a>package.json</a>
 > Pergunta: O exercício que você escolheu e o porque, caso exista mais de uma opção de teste para a vaga :
 > Resposta : Escolhi este exercíco porque demostraria mais habilidade e domínio nas tecnologia exigidas.
 
+> Pergunta: como testar e rodar a aplicação;
+> Ao clonar o repositório, secute o comando yarn ou npm i, para instalar as dependências. e logo em seguida executar o comando expo start. Para mais informações verfique o arquivo package.json.
+
+> Pergunta: qualquer observação que você sentiu durante o processo se algo foi difícil de fazer, confuso, frustrante.
+> Resposta: Nenhuma observação, teste foi trnaquilo e objetivo.
+
+> Pergunta: qualquer coisa que você quer nos dizer sobre o processo
+> Resposta: Na minha opnião em um teste não precisa exigir em um Readme respostas de perguntas não relacionada ao teste, isso seria melhor na entrevista após passar no teste para melhor entrevista.
+
+> Pergunta: o que você adicionaria se tivesse mais tempo?
+> Resposta: Adcionaria um contexto para gerenciamento de estado apenas para demonstração e domínio de habilidade.
+
 ### 🦸 Desenvolvedor 🤘
 
 <img width="120" src="./public/img/eu.png"/>
